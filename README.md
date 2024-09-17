@@ -24,3 +24,9 @@ it is a simple nextjs app that which allow you to create a prompt for chatbot an
 - View all prompts
 - create an account (with google)
 
+## To Make sure the app works
+
+- Replace all the `process.env` with your own values in the `.env.local` file
+- Make sure you have a MongoDB database
+- Make sure you have a google developer account and have created a project and have the client id and secret
+- For the authentification, i used next-auth.js so you can check their documentation for more information (or some youtube videos)
